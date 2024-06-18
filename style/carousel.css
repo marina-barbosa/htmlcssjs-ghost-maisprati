@@ -1,0 +1,16 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel .wrap {
+  gap: 70px;
+  margin-bottom: 150px;
+}
+
+.carousel .card {
+  width: 232px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: var(--primary20);
+}

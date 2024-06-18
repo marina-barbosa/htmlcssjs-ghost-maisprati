@@ -1,0 +1,49 @@
+header {
+  height: 60px;
+  background-color: var(--background);
+  border-bottom: 1px solid var(--grey);
+}
+
+header .wrap {
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: var(--text);
+  font-weight: bold;
+}
+
+.logo ion-icon {
+  font-size: 40px;
+}
+
+.logo h2,
+.logo p {
+  text-align: center;
+  ;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a {
+  color: var(--text-secondary);
+  font-weight: var(--bold-font);
+}
+
+nav a:hover {
+  cursor: pointer;
+  color: var(--primary);
+  transition: 0.5s;
+}

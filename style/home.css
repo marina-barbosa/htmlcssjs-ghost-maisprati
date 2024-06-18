@@ -1,0 +1,58 @@
+.home {
+  background-color: var(--background);
+  height: 85vh;
+}
+
+.home .wrap {
+  justify-content: space-between;
+}
+
+.home img {
+  width: 600px;
+  object-fit: cover;
+  margin-top: 80px;
+}
+
+.home .left {
+  width: 700px;
+}
+
+.home h1 {
+  font-size: 80px;
+  line-height: 1;
+  margin-top: 50px;
+}
+
+.home h1 span:nth-child(1) {
+  background: linear-gradient(120deg, var(--primary), var(--secondary));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home h1 span:nth-child(2) {
+  color: var(--yellow);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--text);
+}
+
+.home p {
+  font-size: 20px;
+  line-height: 2;
+  margin: 60px 0;
+  color: var(--text-secondary);
+}
+
+.home .buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.home .btn:nth-child(1) {
+  background-color: var(--secondary);
+}
+
+.home .btn:nth-child(2) {
+  background-color: var(--primary);
+}
