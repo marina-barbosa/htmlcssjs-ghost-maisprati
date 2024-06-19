@@ -3,9 +3,16 @@
   flex-direction: column;
 }
 
-.carousel .wrap {
+.carousel .wrapper {
+  max-width: 1440px;
+}
+
+.carousel .slider {
+  display: grid;
   gap: 70px;
-  margin-bottom: 150px;
+  grid-template-columns: repeat(10, 1fr);
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 
 .carousel .card {
@@ -13,4 +20,25 @@
   height: 200px;
   border-radius: 20px;
   background-color: var(--primary20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel img {
+  width: 50px;
+}
+
+.carousel .buttons {
+  display: flex;
+  margin-top: 75px;
+  margin-bottom: 125px;
+}
+
+.carousel .scroll-left,
+.carousel .scroll-right {
+  cursor: pointer;
+  font-size: 36px;
+  padding: 10px;
+  color: var(--text-secondary);
 }
