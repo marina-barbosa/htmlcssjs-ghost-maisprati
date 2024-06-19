@@ -18,6 +18,20 @@
   --grey: #dddddd;
 }
 
+[data-theme="dark"] {
+  --text: #eeeeee;
+  --text-secondary: #c1c1c1;
+  --background: #222222;
+  --background-secondary: #333333;
+  --primary: #4fc3df;
+  --primary20: #4fc3df3d;
+  --secondary: #ffdeec;
+  --secondary20: #ffdeec3d;
+  --tertiary: #ffcbd1;
+  --yellow: #fffdd0;
+  --grey: #444444;
+}
+
 * {
   margin: 0;
   padding: 0;
