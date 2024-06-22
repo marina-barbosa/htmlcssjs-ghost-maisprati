@@ -16,6 +16,7 @@
   --secondary20: #f5bdd73d;
   --tertiary: #FF9EAA;
   --yellow: #F9F9E0;
+  --yellow-fixed: #F9F9E0;
   --grey: #dddddd;
 }
 
@@ -79,7 +80,7 @@ footer {
   padding: 10px 30px;
   font-size: 20px;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .btn:hover {
@@ -92,7 +93,6 @@ footer {
   font-size: 50px;
   color: var(--text);
 }
-
 
 @media (max-width: 481px) {
   .wrap {

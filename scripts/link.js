@@ -1,14 +1,17 @@
 
+const logoIcons = document.querySelectorAll('ion-icon[name="logo-ionic"]');
 
+const socialMediaIcons = document.querySelectorAll('.social-media ion-icon');
 
-// Seleciona todos os elementos <ion-icon>
-const iconeLinks = document.getElementsByTagName('ion-icon');
+const allIcons = [...socialMediaIcons];
+if (logoIcons) {
+  logoIcons.forEach(item => {
+    allIcons.push(item);
+  })
+}
 
-// Itera sobre todos os elementos <ion-icon> encontrados
-for (let i = 0; i < iconeLinks.length; i++) {
-  // Adiciona um listener de clique para cada ícone
-  iconeLinks[i].addEventListener('click', function () {
-    // Redireciona para a página especificada
+allIcons.forEach(icone => {
+  icone.addEventListener('click', function () {
     window.location.href = "https://github.com/marina-barbosa";
   });
-}
+});

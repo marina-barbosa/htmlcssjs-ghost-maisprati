@@ -52,11 +52,12 @@
   font-size: 30px;
 }
 
+.footer .logo:hover,
 .footer ul a:hover,
-.footer ion-icon:hover {
+.footer ion-icon:hover
+ {
   cursor: pointer;
   color: var(--primary);
-  transition: 0.5s;
 }
 
 .footer .copyright {

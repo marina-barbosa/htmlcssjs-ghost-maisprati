@@ -20,6 +20,7 @@
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 3;
+  background-color: var(--secondary);
 }
 
 .grid-two .first-row-col2 {
@@ -27,6 +28,7 @@
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+  background-color: var(--yellow-fixed);
 }
 
 .grid-two .first-row-col3 {
@@ -41,16 +43,19 @@
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
+  background-color: var(--grey);
+  color: var(--text);
 }
 
-.big-card {
+.grid-two .big-card {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 4;
+  background-color: var(--primary);
 }
 
-.mini-card {
+.grid-two .mini-card {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 3;
@@ -58,25 +63,28 @@
 }
 
 
-.last-row-col1 {
+.grid-two .last-row-col1 {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 5;
+  background-color: var(--text);
+  color: var(--grey);
 }
 
-.last-row-col2 {
+.grid-two .last-row-col2 {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 5;
 }
 
-.last-row-col3 {
+.grid-two .last-row-col3 {
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 5;
+  background-color: var(--secondary);
 }
 
 .grid-two article {

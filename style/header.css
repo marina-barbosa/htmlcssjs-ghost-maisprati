@@ -17,6 +17,11 @@ header .wrap {
   align-items: center;
   color: var(--text);
   font-weight: bold;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: var(--primary);
 }
 
 .logo ion-icon {
@@ -47,5 +52,5 @@ nav ul li a {
 nav a:hover {
   cursor: pointer;
   color: var(--primary);
-  transition: 0.5s;
+  transition: 0.4s;
 }
