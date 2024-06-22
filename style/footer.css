@@ -1,10 +1,3 @@
-/* footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-} */
-
 .footer {
   background-color: var(--background-secondary);
   border-radius: 20px;
@@ -59,7 +52,7 @@
   font-size: 30px;
 }
 
-.footer a:hover,
+.footer ul a:hover,
 .footer ion-icon:hover {
   cursor: pointer;
   color: var(--primary);
@@ -72,8 +65,23 @@
   color: var(--text-secondary);
 }
 
-footer hr {
+.footer hr {
   color: var(--grey);
   width: 80%;
   margin: 25px auto;
+}
+
+@media (max-width: 1025px) {
+  .footer {
+    margin-bottom: 50px;
+  }
+
+  .footer .cols {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer .social-media {
+    margin-left: 0;
+  }
 }
