@@ -12,18 +12,14 @@
   <link rel="stylesheet" href="style/switcher.css">
   <link rel="stylesheet" href="style/home.css">
   <link rel="stylesheet" href="style/iframe.css">
-  <link rel="stylesheet" href="style/bento-grid.css">
   <link rel="stylesheet" href="style/bento-grid-two.css">
   <link rel="stylesheet" href="style/carousel.css">
-  <!-- <link rel="stylesheet" href="style/carousel-two.css"> -->
-  <!-- <link rel="stylesheet" href="style/carousel-three.css"> -->
   <link rel="stylesheet" href="style/footer.css">
   <!-- https://www.svgrepo.com/vectors/node/ -->
   <script src="scripts/menu-burgue.js" defer></script>
   <script src="scripts/theme-switch.js" defer></script>
   <script src="scripts/carousel.js" defer></script>
-  <!-- <script src="scripts/carousel-two.js" defer></script> -->
-  <!-- <script src="scripts/carousel-three.js" defer></script> -->
+  <script src="scripts/link.js" defer></script>
 </head>
 
 <body>
@@ -39,10 +35,10 @@
       <nav>
         <button class="hamburger"></button>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">iFrame</a></li>
-          <li><a href="#">Grid</a></li>
-          <li><a href="#">Carousel</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#iframe">iFrame</a></li>
+          <li><a href="#grid">Grid</a></li>
+          <li><a href="#carousel">Carousel</a></li>
           <li>
             <div class="theme-switch">
               <input type="checkbox" class="checkbox" id="checkbox">
@@ -59,7 +55,7 @@
   </header>
 
   <main>
-    <section class="home">
+    <section id="home" class="home">
       <div class="wrap">
         <div class="left">
           <h1>Dolor sit amet, <span>haunted</span> by the <span>spirits</span> of yore.</h1>
@@ -76,9 +72,9 @@
       </div>
     </section>
 
-    <section class="iframe">
+    <section id="iframe" class="iframe">
       <div class="wrap">
-        <h1 class="heading">iFRAME</h1>
+        <h1 class="heading">iFrame</h1>
         <div class="card">
           <iframe src="https://www.youtube.com/embed/S6mAtS44jGE" frameborder="0" title="Youtube Video"
             allowfullscreen></iframe>
@@ -88,9 +84,9 @@
       </div>
     </section>
 
-    <section class="bento-grid-two">
+    <section id="grid" class="bento-grid-two">
       <div class="wrap">
-        <h1 class="heading">BENTO GRID TWO</h1>
+        <h1 class="heading">Bento Grid</h1>
         <div class="grid-two">
           <article class="first-row-col1">
             <h3>Título</h3>
@@ -139,7 +135,7 @@
       </div>
     </section>
 
-    <section class="carousel">
+    <section id="carousel" class="carousel">
       <h1 class="heading">Carousel</h1>
 
       <div class="wrapper">
@@ -163,81 +159,6 @@
       </div>
     </section>
 
-    <!-- <section class="carousel-two">
-      <div class="wrap">
-        <h1 class="heading">Carousel TWO</h1>
-
-        <div class="slider-wrap">
-          <div class="slider">
-            <div class="slider-item">
-              <div class="img-div">
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="img-div">
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="img-div">
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="img-div">
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="img-div">
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="img-div">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- <section class="carousel-three">
-      <div class="wrapper">
-        <ion-icon id="btn-left" name="arrow-back-circle-outline"></ion-icon>
-        <ul class="carousel3">
-          <li class="card">
-            <div class="img">
-              <img src="assets/boo1.png" draggable="false">
-            </div>
-          </li>
-          <li class="card">
-            <div class="img">
-              <img src="assets/boo2.png" draggable="false">
-            </div>
-          </li>
-          <li class="card">
-            <div class="img">
-              <img src="assets/boo3.png" draggable="false">
-            </div>
-          </li>
-          <li class="card">
-            <div class="img">
-              <img src="assets/boo4.png" draggable="false">
-            </div>
-          </li>
-          <li class="card">
-            <div class="img">
-              <img src="assets/boo5.png" draggable="false">
-            </div>
-          </li>
-          <li class="card">
-            <div class="img">
-              <img src="assets/boo6.png" draggable="false">
-            </div>
-          </li>
-          <li class="card"></li>
-        </ul>
-        <ion-icon id="btn-right" name="arrow-forward-circle-outline"></ion-icon>
-      </div>
-
-    </section> -->
   </main>
 
   <footer>
@@ -258,20 +179,20 @@
           </div>
           <div class="col">
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">iFrame</a></li>
-              <li><a href="">Grid</a></li>
-              <li><a href="">Carousel</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#iframe">iFrame</a></li>
+              <li><a href="#grid">Grid</a></li>
+              <li><a href="#carousel">Carousel</a></li>
             </ul>
           </div>
           <div class="col">
             <ul>
-              <li><a href="">Link Ipsum</a></li>
-              <li><a href="">Link Lorem</a></li>
-              <li><a href="">Link Ipsum</a></li>
-              <li><a href="">Link Lorem</a></li>
+              <li><a href="https://github.com/marina-barbosa" target="_blank">Link Ipsum</a></li>
+              <li><a href="https://github.com/marina-barbosa" target="_blank">Link Lorem</a></li>
+              <li><a href="https://github.com/marina-barbosa" target="_blank">Link Ipsum</a></li>
+              <li><a href="https://github.com/marina-barbosa" target="_blank">Link Lorem</a></li>
               <li>
-                <div class="social-media">
+                <div href="https://github.com/marina-barbosa" target="_blank" class="social-media">
                   <ion-icon name="logo-facebook"></ion-icon>
                   <ion-icon name="logo-instagram"></ion-icon>
                   <ion-icon name="logo-twitter"></ion-icon>
@@ -283,8 +204,7 @@
         </div>
         <div class="copyright">
           <hr>
-          <p>© 2024 Marina Barbosa</p>
-          <!-- <p>Copyright © 2024 Ghost. All rights reserved.</p> -->
+          <p>Copyright © 2024 Marina Barbosa. All rights reserved.</p>
         </div>
       </div>
     </div>
