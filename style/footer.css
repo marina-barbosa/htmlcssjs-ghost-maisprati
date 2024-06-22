@@ -54,8 +54,7 @@
 
 .footer .logo:hover,
 .footer ul a:hover,
-.footer ion-icon:hover
- {
+.footer ion-icon:hover {
   cursor: pointer;
   color: var(--primary);
 }
@@ -70,6 +69,10 @@
   color: var(--grey);
   width: 80%;
   margin: 25px auto;
+}
+
+.footer p {
+  padding-inline: 40px;
 }
 
 @media (max-width: 1025px) {
